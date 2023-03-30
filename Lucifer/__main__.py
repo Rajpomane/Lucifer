@@ -67,7 +67,7 @@ if LOAD_MYBOT == "True":
         with open(name) as f:
             path1 = Path(f.name)
             shortname = path1.stem
-            load_pmbot(shortname.replace(".py", ""))
+           
     print("TGBot set up completely!")
 
 print("TGBot set up - Level - Basic")
